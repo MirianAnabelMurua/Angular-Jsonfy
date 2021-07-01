@@ -1,0 +1,27 @@
+<section class="services">
+    <div class="max-width">
+        <div class="home-content">
+            <h2 class="title">Productos</h2>
+            <div class="serv-content">
+                <div class="card">
+                    <div class="box">
+                        <div *ngIf="loading">Loading...</div>
+                        <div *ngIf="!loading">
+                            <div *ngFor="let producto of productos">
+                                <label>Nombre del Producto:</label>
+                                <p> {{producto.name | uppercase }}</p><br>
+                                <label>Precio:</label>
+                                <p> {{producto.price | currency}}</p><br>
+                                <img class="imagenProducto" src="{{producto.photo_url}}" alt=""><br><br>
+                                <div class="btn-box">
+                                    <button>Comprar</button>
+                                    <button routerLink="detalle/{{producto.id}}">Ver Descripcion</button>
+                                </div><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  .max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+  .error {
+    background-color: red;
+  }
+  .warning {
+    background-color: yellow;
+  }
+  
+  section {
+    padding: 100px 0;
+    left: 50%;
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    margin-left: 370px;  
+    padding: 0 5px;
+  }
+  .max-width {
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+  .contact .contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+   
+  }
+  section .title {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: "Lobster", sans-serif;
+  }
+  section .title::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 3px;
+    background: crimson;
+    transform: translateX(-50%);
+  }
+  section .title::after {
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 20px;
+    color: rgb(2, 2, 2);
+  
+    padding: 0 5px;
+    background: #fff;
+    transform: translateX(-50%);
+  }
+  .contact {
+    background-color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+  }
+  .contact .title::after {
+    content: "";
+    color:crimson;
+  }
+  .contact,
+  .contact-content {
+    width: calc(50% - 30px);
+    
+  }
+  .contact .contact-content .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .contact .right form .field,
+  .contact .right form .fields .field {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .contact .right form .textarea {
+    height: 80px;
+    width: 100%;
+  }
+  .contact .right form .name {
+    margin-right: 10px;
+  }
+  .contact .right form .email {
+    margin-left: 0px;
+  }
+  .contact .right form .field input,
+  .contact .right form .textarea textarea {
+    height: 100%;
+    width: 500px;
+    border: 1px solid crimson;
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }*/
+  label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: "Lobster", sans-serif;
+  }
+  input.button  {
+    text-decoration: none;
+    height: 40px;
+    width: 150px;
+    margin-left: 150px;
+    color: white;
+    padding-left: 0%;
+    margin-top: 0;
+    background-color: crimson;
+    border: 2px solid   crimson;
+    outline: none;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+ 
+  }
+  .button:hover{
+    transform: scale(1.05);
+    border-color: rgb(71, 245, 27);
+    color:rgb(71, 245, 27)
+  }
+  label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-family: "Lobster", sans-serif;
+  }
+
+
+  
+
+  

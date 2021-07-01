@@ -78,10 +78,12 @@
     padding: 30px 0;
     font-family: "Ubuntu", sans-serif;
     transition: all 0.3s ease;
+    margin-top: 0;
   }
   .navbar {
-    padding: 15px 0;
+    padding: 25px 0;
     background:   crimson;
+    margin-top: 0;
   }
   .navbar .max-width {
     display: flex;
@@ -89,7 +91,7 @@
     justify-content: space-between;
   }
   .navbar {
-    color: rgb(7, 17, 61);
+    color: rgb(255, 255, 255);
     font-size: 35px;
     font-weight: 600;
   }
@@ -106,22 +108,22 @@
   }
   .navbar .menu li a {
     display: block;
-    color: rgb(36, 50, 114);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
     font-size: bold;
   }
-  .navbar .menu li a:hover {
-    color:  rgb(7, 17, 61);
+  .navbar .menu li:hover {
+    color:  rgb(71, 245, 27);
   }
   .navbar.sticky .menu li a:hover {
     color: #fff;
   }
   
   .menu-btn {
-    color: rgb(36, 50, 114);
+    color: rgb(255, 255, 255);
     font-size: 23px;
     cursor: pointer;
     display: none;
